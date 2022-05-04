@@ -7,7 +7,7 @@ while (sumArray(menoDi50) < 50) {
     do {
         thisPrompt = parseInt(prompt('inserisci un numero'));
     }
-    while (isNaN(thisPrompt))
+    while (isNaN(thisPrompt));
     menoDi50.push(thisPrompt);
     console.log(menoDi50, sumArray(menoDi50));
 }
